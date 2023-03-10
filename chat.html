@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Chat App</title>
+    <script src="chat.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="chat.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="logout.html">Logout</a></li>
+        </ul>
+    </nav>
+    <div class="chat-box-container">
+        <div class="chat-box">
+            <div class="chat-log">
+                <div class="message">
+                    <div class="message-header">
+                        <span class="username">John</span>
+                        <span class="time">10:30 AM</span>
+                    </div>
+                    <div class="message-body">
+                        <p>Hello, how are you?</p>
+                    </div>
+                </div>
+                <div class="message own-message">
+                    <div class="message-header">
+                        <span class="username">You</span>
+                        <span class="time">10:32 AM</span>
+                    </div>
+                    <div class="message-body">
+                        <p>I'm good, thanks for asking!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="message-field">
+                <div class="input-container">
+                    <input type="text" placeholder="Type a message...">
+                </div>
+                <button type="submit">Send</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
